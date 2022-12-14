@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int n,i,a;
+	cin>>n;
+	int c=0;
+	for(i=1;i<=n;i++){
+	    int a;
+	    cin>>a;
+	    if(a%2==0){
+	        c++;
+	    }
+	}
+	if(c>(n-c)){
+	   cout<<"READY FOR BATTLE" <<endl;
+	}
+	else{
+	    cout<<"NOT READY"<<endl;
+	}
+	
+	return 0;
+}
